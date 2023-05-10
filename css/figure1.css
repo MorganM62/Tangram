@@ -11,7 +11,7 @@
 }
 
 @keyframes car2{
-    100%{transform: translate(-28px,-102px) skew(-45deg);}
+    100%{transform: translate(-28px,-100px) skew(-45deg);}
 }
 
 .blue.square{ 
