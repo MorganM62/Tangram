@@ -1,0 +1,67 @@
+.red.square{ 
+    animation: car1 1s linear both alternate;
+}
+
+@keyframes car1{
+    100%{transform:translate(-140px,-64px);}
+}
+
+.green.square{
+    animation: car2 1s linear both alternate;
+}
+
+@keyframes car2{
+    100%{transform: translate(-28px,-102px) skew(-45deg);}
+}
+
+.blue.square{ 
+    animation: car3 1s linear both alternate;
+}
+
+@keyframes car3{
+    100%{transform:translate(-65px,85px) rotate(90deg);}
+}
+
+.yellow.square{
+    animation: car4 1s linear both alternate;
+}
+
+@keyframes car4{
+    100%{transform: translate(10px,10px);}
+}
+
+.purple.square{
+    animation: car5 1s linear both alternate;
+}
+
+@keyframes car5{
+    100%{transform: translate(-176px,85px) rotate(270deg);}
+}
+
+.brown.square{
+    animation: car6 1s linear both alternate;
+}
+
+@keyframes car6{
+    100%{ /* Rotate */
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
+        transform: rotate(-45deg)translate(-93px,-50px);
+        /* Rotate Origin */
+        -webkit-transform-origin: 0 100%;
+        -moz-transform-origin: 0 100%;
+        -ms-transform-origin: 0 100%;
+        -o-transform-origin: 0 100%;
+        transform-origin: 0 100%;}
+}
+
+.orange.square{
+    animation: car7 1s linear both alternate;
+}
+
+@keyframes car7{
+    0%{}
+    100%{transform: translate(-64px,-27px);}
+}

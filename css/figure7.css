@@ -1,0 +1,74 @@
+.red.squirel{ 
+    animation: squirel 1s linear both alternate;
+}
+@keyframes squirel{
+    0% {transform: translate(-140px,-64px);}
+    100% {transform:translate(-90px,1px)rotate(225deg); }
+}
+.green.squirel{
+    animation: squirel1 1s linear both alternate;
+    
+}
+@keyframes squirel1{
+    0% {transform: translate(-28px,-102px) skew(-45deg);}
+    100%{width: 106px;
+        height: 100px;
+        transform : skew(45deg, 0deg)translate(300px,-200px) rotate(270deg);}
+}
+.blue.squirel{ 
+    animation: squirel2 1s linear both alternate;
+}
+@keyframes squirel2{
+    0%{transform:translate(-65px,85px) rotate(90deg);}
+    100%{transform:translate(-46px,-74px) rotate(90deg);}
+}
+.yellow.squirel{
+    animation: squirel3 1s linear both alternate;
+}
+@keyframes squirel3{
+    0%{ transform: translate(10px,10px);}
+    100%{transform: translate(-144px,159px)rotate(-45deg);}
+}
+.purple.squirel{
+    animation: squirel4 1s linear both alternate;
+}
+@keyframes squirel4{
+    0%{transform: translate(-176px,85px) rotate(270deg);}
+    100%{transform: translate(-283px,25px) rotate(110deg);}
+}
+.brown.squirel{
+    animation: squirel5 1s linear both alternate;
+}
+@keyframes squirel5{
+    0%{ /* Rotate */
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
+        transform: rotate(-45deg)translate(-93px,-50px);
+        /* Rotate Origin */
+        -webkit-transform-origin: 0 100%;
+        -moz-transform-origin: 0 100%;
+        -ms-transform-origin: 0 100%;
+        -o-transform-origin: 0 100%;
+        transform-origin: 0 100%;}
+        100%{ /* Rotate */
+            -webkit-transform: rotate(-45deg);
+            -moz-transform: rotate(-45deg);
+            -ms-transform: rotate(-45deg);
+            -o-transform: rotate(-45deg);
+            transform: rotate(-45deg)translate(137px,-43px);
+            /* Rotate Origin */
+            -webkit-transform-origin: 0 100%;
+            -moz-transform-origin: 0 100%;
+            -ms-transform-origin: 0 100%;
+            -o-transform-origin: 0 100%;
+            transform-origin: 0 100%;}
+}
+.orange.squirel{
+    animation: squirel6 1s linear both alternate;
+}
+@keyframes squirel6{
+    0%{ transform: translate(-64px,-27px);}
+    100%{transform:translate(-261px,150px)rotate(65deg)}
+}

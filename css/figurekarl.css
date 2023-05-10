@@ -1,0 +1,49 @@
+.red.karl{
+    animation: karl1 1s linear both alternate;
+}
+@keyframes karl1 {
+    0%{transform:translate(-140px,-64px)}
+    100%{transform: translate(90px,31px) rotate(270deg);}
+}
+.green.karl{
+    animation: karl2 1s linear both alternate;
+}
+@keyframes karl2 {
+    0%{transform: translate(-28px,-102px) skew(-45deg);}
+    100%{transform: translate(-35px,103px) rotate(-90deg) skew(45deg); height:100px ; width:106px ;}
+}
+.blue.karl{
+    animation: karl3 1s linear both alternate;
+}
+@keyframes karl3 {
+    0%{transform: translate(-28px,-102px) skew(-45deg);}
+    100%{transform: translate(67px,-203px)rotate(45deg);}
+}
+.yellow.karl{
+    animation: karl4 1s linear both alternate;
+}
+@keyframes karl4 {
+    0%{transform: translate(10px,10px);}
+    100%{transform: translate(-38px,-203px) rotate(135deg);}
+}
+.purple.karl{
+    animation: karl5 1s linear both alternate;
+}
+@keyframes karl5 {
+    0%{transform: translate(-176px,85px) rotate(270deg);}
+    100%{transform: translate(211px,133px) rotate(225deg);}
+}
+.brown.karl{
+    animation: karl6 1s linear both alternate;
+}
+@keyframes karl6 {
+    0%{transform: rotate(-45deg)translate(-93px,-50px);}
+    100%{transform: translate(0px,-332px) rotate(45deg);}
+}
+.orange.karl{
+    animation: karl7 1s linear both alternate;
+}
+@keyframes karl7 {
+    0%{transform: translate(-64px,-27px);}
+    100%{transform: translate(-111px,280px) rotate(315deg);}
+}

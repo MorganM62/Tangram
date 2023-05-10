@@ -1,0 +1,74 @@
+.red.lievre{ 
+    animation: li1 1s linear both alternate;
+}
+
+@keyframes li1{
+    0%{transform:translate(-140px,-64px);}
+    100%{transform:translate(-198px,-290px) rotate(-90deg);}
+}
+
+.green.lievre{
+    animation: li2 1s linear both alternate;
+}
+
+@keyframes li2{
+    0%{transform: translate(-28px,-102px) skew(-45deg);}
+    100%{transform: translate(-70px,-320px) rotate(-45deg) skew(-45deg)}
+}
+
+.blue.lievre{ 
+    animation: li3 1s linear both alternate;
+}
+
+@keyframes li3{
+    0%{transform:translate(-65px,85px) rotate(90deg);}
+    100%{transform:translate(-220px,200px) rotate(-45deg);}
+}
+
+.yellow.lievre{
+    animation: li4 1s linear both alternate;
+}
+
+@keyframes li4{
+    0%{transform: translate(10px,10px);}
+    100%{transform: translate(-200px,40px);}
+}
+
+.purple.lievre{
+    animation: li5 1s linear both alternate;
+}
+
+@keyframes li5{
+    0%{transform: translate(-176px,85px) rotate(270deg);}
+    100%{transform: translate(-89px,35px) rotate(90deg);}
+}
+
+.brown.lievre{
+    animation: li6 1s linear both alternate;
+}
+
+@keyframes li6{
+    0%{/* Rotate */
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
+        transform: rotate(-45deg)translate(-93px,-50px);
+        /* Rotate Origin */
+        -webkit-transform-origin: 0 100%;
+        -moz-transform-origin: 0 100%;
+        -ms-transform-origin: 0 100%;
+        -o-transform-origin: 0 100%;
+        transform-origin: 0 100%;}
+
+    100%{transform: translate(-86px,-165px);}
+}
+
+.orange.lievre{
+    animation: li7 1s linear both alternate;
+}
+
+@keyframes li7{
+    0%{transform: translate(-64px,-27px)}
+    100%{transform: translate(-88px,-40px) rotate(-90deg);}
+}

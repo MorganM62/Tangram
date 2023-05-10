@@ -1,0 +1,49 @@
+.red.dof1{
+    animation: dofun 1s linear both alternate;
+}
+@keyframes dofun{
+    0%{transform:translate(-140px,-64px)}
+    100%{transform: translate(-258px,95px) rotate(105deg)};
+}
+.green.dof1{
+    animation: dof2 1s linear both alternate;
+}
+@keyframes dof2{
+    0%{transform: translate(-28px,-102px) skew(-45deg);}
+    100%{transform: translate(92px,-157px)skew(45deg)rotate(-90deg); width: 100px; height: 106px;}
+}
+.blue.dof1{
+    animation: dof3 1s linear both alternate;
+}
+@keyframes dof3{   
+    0%{transform: translate(-28px,-102px) skew(-45deg);}
+    100%{transform: translate(-17.5px,-32.2px)rotate(90deg)}
+}
+.yellow.dof1{
+    animation: dof4 1s linear both alternate;
+}
+@keyframes dof4{
+    0%{transform: translate(10px,10px);}
+    100%{transform: translate(142px,-54px) rotate(135deg)}
+}
+.purple.dof1{
+    animation: dof5 1s linear both alternate;
+}
+@keyframes dof5{
+    0%{transform: translate(-176px,85px) rotate(270deg);}
+    100%{transform: translate(80px,109px) rotate(-25deg)}
+}
+.brown.dof1{
+    animation: dof6 1s linear both alternate;
+}
+@keyframes dof6{
+    0%{transform: rotate(-45deg)translate(-93px,-50px);}
+    100%{transform: translate(233px,50px)}
+}
+.orange.dof1{
+    animation: dof7 1s linear both alternate;
+}
+@keyframes dof7{
+    0%{transform: translate(-64px,-27px);}
+    100%{transform: translate(221.5px,-28px)rotate(45deg)}
+}

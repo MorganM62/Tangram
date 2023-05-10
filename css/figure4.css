@@ -1,0 +1,61 @@
+.yellow.CM{
+    animation: CM 1s linear both alternate;
+}
+@keyframes CM{
+    0% {transform: translate(-140px,-64px);}
+    100%{transform: translate(60px,-180px) rotate(135deg);}
+}
+.orange.CM{
+    animation: CM2 1s linear both alternate;
+ }
+@keyframes CM2{
+    0%{ transform: translate(-64px,-27px);}
+    100%{transform: translate(60px,470px) rotate(315deg)}
+}
+.green.CM{
+    animation: CM3 1s linear both alternate;
+}
+@keyframes CM3{
+    0% {transform: translate(-28px,-102px) skew(-45deg);}
+    100%{
+        transform: translate(11px,243px)skew(44deg, 0deg);}
+}
+.brown.CM{
+    animation: CM4 1s linear both alternate;
+}
+@keyframes CM4{
+    0%{ /* Rotate */
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
+        transform: rotate(-45deg)translate(-93px,-50px);
+        /* Rotate Origin */
+        -webkit-transform-origin: 0 100%;
+        -moz-transform-origin: 0 100%;
+        -ms-transform-origin: 0 100%;
+        -o-transform-origin: 0 100%;
+        transform-origin: 0 100%;}
+        100%{ transform: translate(30px,332px) rotate(0deg);}
+}
+.blue.CM{
+    animation: CM5 1s linear both alternate;
+}
+@keyframes CM5{
+    0%{transform:translate(-65px,85px) rotate(90deg);}
+    100%{transform: translate(60px,152px)rotate(225deg);}
+}
+.purple.CM{
+    animation: CM6 1s linear both alternate;
+}
+@keyframes CM6{
+    0%{transform: translate(-176px,85px) rotate(270deg);}
+    100%{transform: translate(126px,244px) rotate(1deg);}
+}
+.red.CM{
+    animation: CM7 1s linear both alternate;
+}
+@keyframes CM7{
+    0% {transform: translate(-140px,-64px);}
+    100% {transform: translate(13px,-120px) rotate(270deg); }
+}

@@ -1,0 +1,73 @@
+
+.red.sapin{ 
+animation: sap1 1s linear both alternate;
+}
+
+@keyframes sap1 {
+    0%{transform:translate(-140px,-64px);}
+    100%{transform: translate(17px,-64px) rotate(45deg)};
+}
+.green.sapin{
+    animation: sap2 1s linear both alternate;
+}
+
+@keyframes sap2 {
+    0%{transform: translate(-28px,-102px) skew(-45deg);}
+    100%{width: 106px; height: 100px; transform: translate(120px,-14px) skew(45deg, 0deg);}
+}
+
+.blue.sapin{
+    animation: sap3 1s linear both alternate;
+}
+
+@keyframes sap3 {
+    0%{transform:translate(-65px,85px) rotate(90deg);}
+    100%{transform: translate(-36px,96px) rotate(225deg);}
+}
+
+.yellow.sapin{
+    animation: sap4 1s linear both alternate;
+}
+
+@keyframes sap4 {
+    0%{transform: translate(10px,10px);}
+    100%{transform: translate(70px,96px) rotate(-45deg);}
+}
+
+.purple.sapin{
+    animation: sap5 1s linear both alternate;
+}
+
+@keyframes sap5 {
+    0%{transform: translate(-176px,85px) rotate(270deg);}
+    100%{transform: translate(-115px,16px) rotate(-45deg);}
+}
+
+.brown.sapin{
+    animation: sap6 1s linear both alternate;
+}
+
+@keyframes sap6 {
+    0%{ /* Rotate */
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
+        transform: rotate(-45deg)translate(-93px,-50px);
+        /* Rotate Origin */
+        -webkit-transform-origin: 0 100%;
+        -moz-transform-origin: 0 100%;
+        -ms-transform-origin: 0 100%;
+        -o-transform-origin: 0 100%;
+        transform-origin: 0 100%;}
+        100%{transform: translate(0px,200px);}
+}
+
+.orange.sapin{
+    animation: sap7 1s linear both alternate;
+ }
+
+ @keyframes sap7{
+    0%{transform: translate(-64px,-27px);}
+    100%{transform: translate(-62px,-37px) rotate(-225deg);}
+ }

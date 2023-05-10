@@ -1,0 +1,90 @@
+.red.pyramide{ 
+    animation : pyr1 1s linear both alternate;
+}
+
+@keyframes pyr1{
+    0%{transform:translate(-140px,-64px);}
+    100%{transform:translate(-186px,83px) rotate(180deg);
+        border-top: 150px solid rgb(228, 22, 22); 
+        border-right: 150px solid transparent;}
+}
+
+.green.pyramide{
+    animation : pyr2 1s linear both alternate;
+}
+
+@keyframes pyr2 {
+    0%{transform: translate(-28px,-102px) skew(-45deg);}
+    100%{transform : translate(1px,120px) skew(-45deg);
+        background: rgb(26, 135, 24);}
+}
+
+.blue.pyramide{
+    animation : pyr3 1s linear both alternate;
+}
+
+@keyframes pyr3 {
+    0%{transform:translate(-65px,85px) rotate(90deg);}
+    100%{transform: translate(150px,150px) rotate(225deg);
+        border-right: 150px solid rgb(19, 79, 190);
+        border-top: 150px solid transparent;
+        border-bottom: 150px solid transparent;}
+}
+
+.yellow.pyramide{
+    animation : pyr4 1s linear both alternate;
+}
+
+@keyframes pyr4 {
+    0%{transform: translate(10px,10px);}
+    100%{transform : translate(255px,150px) rotate(-45deg);
+        border-right: 150px solid rgb(238, 241, 47);
+        border-top: 150px solid transparent;
+        border-bottom: 150px solid transparent;}
+}
+
+.purple.pyramide{
+    animation : pyr5 1s linear both alternate;
+}
+
+@keyframes pyr5 {
+    0%{transform: translate(-176px,85px) rotate(270deg);}
+    100%{transform: translate(-74px,84px) rotate(270deg);
+        border-top: 76px solid rgb(113, 17, 128);
+        border-left: 76px solid transparent; 
+        border-right: 76px solid transparent;}
+}
+
+.brown.pyramide{
+    animation : pyr6 1s linear both alternate;
+}
+
+@keyframes pyr6 {
+    0%{/* Rotate */
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
+        transform: rotate(-45deg)translate(-93px,-50px);
+        /* Rotate Origin */
+        -webkit-transform-origin: 0 100%;
+        -moz-transform-origin: 0 100%;
+        -ms-transform-origin: 0 100%;
+        -o-transform-origin: 0 100%;
+        transform-origin: 0 100%;}
+        100%{transform : rotate(-45deg)translate(-41px,-32px);
+            background: rgb(70, 47, 0);
+            margin: 3px 0 0 30px;}
+}
+
+.orange.pyramide{
+    animation : pyr7 1s linear both alternate;
+}
+
+@keyframes pyr7 {
+    0%{transform: translate(-64px,-27px);}
+    100%{transform : translate(39px,45px) rotate(180deg);
+        border-top: 75px solid rgb(255, 145, 0);
+        border-left: 75px solid transparent; 
+        border-right: 75px solid transparent}
+}

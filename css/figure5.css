@@ -1,0 +1,61 @@
+.yellow.pipe{
+    animation: pipe 1s linear both alternate;
+}
+@keyframes pipe{
+    0% {transform: translate(-140px,-64px);}
+    100%{transform: translate(-98px,-60px) rotate(135deg);}
+}
+.orange.pipe{
+    animation: pipe2 1s linear both alternate;
+ }
+ @keyframes pipe2{
+    0%{ transform: translate(-64px,-27px);}
+    100%{transform: translate(141px,-87px) rotate(315deg)}
+}
+.green.pipe{
+    animation: pipe3 1s linear both alternate;
+}
+@keyframes pipe3{
+    0% {transform: translate(-28px,-102px) skew(-45deg);}
+    100%{
+        transform: translate(8px,20px)skew(-45deg, 0deg) rotate(45deg);}
+}
+.brown.pipe{
+    animation: pipe4 1s linear both alternate;
+}
+@keyframes pipe4{
+    0%{ /* Rotate */
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
+        transform: rotate(-45deg)translate(-93px,-50px);
+        /* Rotate Origin */
+        -webkit-transform-origin: 0 100%;
+        -moz-transform-origin: 0 100%;
+        -ms-transform-origin: 0 100%;
+        -o-transform-origin: 0 100%;
+        transform-origin: 0 100%;}
+        100%{ transform: translate(205px,-115px) rotate(0deg);}
+}
+.blue.pipe{
+    animation: pipe5 1s linear both alternate;
+}
+@keyframes pipe5{
+    0%{transform:translate(-65px,85px) rotate(90deg);}
+    100%{transform: translate(-203px,46px)rotate(315deg);}
+}
+.purple.pipe{
+    animation: pipe6 1s linear both alternate;
+}
+@keyframes pipe6{
+    0%{transform: translate(-176px,85px) rotate(270deg);}
+    100%{transform: translate(88px,-34px) rotate(135deg);}
+}
+.red.pipe{
+    animation: pipe7 1s linear both alternate;
+}
+@keyframes pipe7{
+    0% {transform: translate(-140px,-64px);}
+    100% {transform: translate(-150px,98px) rotate(225deg); }
+}

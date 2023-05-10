@@ -1,0 +1,49 @@
+.red.cat{
+    animation: cat1 1s linear both alternate;
+}
+@keyframes cat1{
+    0%{transform:translate(-140px,-64px)}
+    100%{transform: translate(47px,-33px) rotate(-225deg);}
+}
+.green.cat{
+    animation: cat2 1s linear both alternate;
+}
+@keyframes cat2{
+    0%{transform: translate(-28px,-102px) skew(-45deg);}
+    100%{transform:translate(-206px,170px) skew(45deg); width: 100px; height: 106px;}
+}
+.blue.cat{
+    animation: cat3 1s linear both alternate;
+}
+@keyframes cat3{
+    0%{transform: translate(-28px,-102px) skew(-45deg);}
+    100%{transform: translate(-50px,170px) rotate(-45deg);}
+}
+.yellow.cat{
+    animation: cat4 1s linear both alternate;
+}
+@keyframes cat4{
+    0%{transform: translate(10px,10px);}
+    100%{transform: translate(-28px,11px);}
+}
+.purple.cat{
+    animation: cat5 1s linear both alternate;
+}
+@keyframes cat5{
+    0%{transform: translate(-176px,85px) rotate(270deg);}
+    100%{transform: translate(10px,-286px) rotate(-90deg);}
+}
+.brown.cat{
+    animation: cat6 1s linear both alternate;
+}
+@keyframes cat6{
+    0%{transform: rotate(-45deg)translate(-93px,-50px);}
+    100%{transform: translate(33px,-214px) rotate(45deg);}
+}
+.orange.cat{
+    animation: cat7 1s linear both alternate;
+}
+@keyframes cat7{
+    0%{transform: translate(-64px,-27px);}
+    100%{transform: translate(85px,-287px) rotate(90deg);}
+}

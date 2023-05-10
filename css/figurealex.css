@@ -1,0 +1,66 @@
+.red.wash{ 
+    animation: wash1 1s linear both alternate;
+}
+@keyframes wash1 {
+    0%{transform:translate(-140px,-64px);}
+    100%{transform: translate(-50px,188px) rotate(-90deg);}
+}
+
+.green.wash{
+    animation: wash2 1s linear both alternate;
+}
+@keyframes wash2 {
+    0%{transform: translate(-28px,-102px) skew(-45deg);}
+    100%{transform: translate(-87px,300px) skew(-45deg, 0deg);}
+}
+
+.blue.wash{
+    animation: wash3 1s linear both alternate;
+}
+@keyframes wash3 {
+    0%{transform:translate(-65px,85px) rotate(90deg);}
+    100%{transform: translate(-50px,113px);}
+}
+
+.yellow.wash{
+    animation: wash4 1s linear both alternate;
+}
+@keyframes wash4 {
+    0%{transform: translate(10px,10px);}
+    100%{transform: translate(-50px,-38px) rotate(180deg);}
+}
+
+.purple.wash{
+    animation: wash5 1s linear both alternate;
+}
+@keyframes wash5 {
+    0%{transform: translate(-176px,85px) rotate(270deg);}
+    100%{transform: translate(26px,300px) rotate(180deg);}
+}
+
+.brown.wash{
+    animation: wash6 1s linear both alternate;
+}
+@keyframes wash6 {
+    0%{ /* Rotate */
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
+        transform: rotate(-45deg)translate(-93px,-50px);
+        /* Rotate Origin */
+        -webkit-transform-origin: 0 100%;
+        -moz-transform-origin: 0 100%;
+        -ms-transform-origin: 0 100%;
+        -o-transform-origin: 0 100%;
+        transform-origin: 0 100%;}
+        100%{transform: translate(-64px,-187px) rotate(45deg);}
+}
+
+.orange.wash{
+    animation: wash7 1s linear both alternate;
+ }
+ @keyframes wash7{
+    0%{transform: translate(-64px,-27px);}
+    100%{transform: translate(-11px,-110px) rotate(90deg);}
+ }

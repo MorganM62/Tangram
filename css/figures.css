@@ -1,0 +1,59 @@
+.red{ 
+    position: absolute;
+    border-top: 150px solid rgb(228, 22, 22); 
+    border-right: 150px solid transparent;
+    width: 0; 
+    height: 0; 
+}
+.green{
+    position: absolute;
+    width: 151px; 
+    height: 75px;
+    background: rgb(26, 135, 24);
+    -moz-transform: skew(-45deg, 0deg);
+    -webkit-transform: skew(-45deg, 0deg);
+    -o-transform: skew(-45deg, 0deg);
+    -ms-transform: skew(-45deg, 0deg);
+    transform: skew(-45deg, 0deg);
+}
+.blue{
+    position: absolute; 
+    width: 0;
+    height: 0;
+    border-right: 150px solid rgb(19, 79, 190);
+    border-top: 150px solid transparent;
+    border-bottom: 150px solid transparent;
+}
+.yellow{
+    position: absolute;
+    width: 0;
+    height: 0;
+    transform: rotate(90deg);
+    border-right: 150px solid rgb(238, 241, 47);
+    border-top: 150px solid transparent;
+    border-bottom: 150px solid transparent;
+}
+.purple{
+    position: absolute;
+    width: 0; 
+    height: 0;
+    border-top: 76px solid rgb(113, 17, 128);
+    border-left: 76px solid transparent; 
+    border-right: 76px solid transparent; 
+}
+.brown{
+    position: absolute;
+    width: 106px;
+    height: 106px;
+    background: rgb(70, 47, 0);
+    margin: 3px 0 0 30px;
+}
+.orange{
+    position: absolute;
+    width: 0; 
+    height: 0;
+    border-top: 75px solid rgb(255, 145, 0);
+    border-left: 75px solid transparent; 
+    border-right: 75px solid transparent;
+    transform: rotate(-90deg);
+}
